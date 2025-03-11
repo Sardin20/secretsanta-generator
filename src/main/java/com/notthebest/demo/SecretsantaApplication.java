@@ -2,12 +2,12 @@ package com.notthebest.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class SecretsantaApplication {
+public class SecretsantaApplication extends SpringBootServletInitializer {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SecretsantaApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(SecretsantaApplication.class, args);
+    }
 }
